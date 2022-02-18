@@ -27,14 +27,14 @@ jobs:
           python -m venv venv
           source venv/bin/activate
           
-      - name: Update packages
-        run: sudo apt -y update
+      #- name: Update packages
+      #  run: sudo apt -y update
       
-      - name: Install additional packages
-        run: sudo apt -y install libpq-dev python-dev
+      #- name: Install additional packages
+      #  run: sudo apt -y install libpq-dev python-dev
         
-      - name: Install Jinga2
-        run: pip install 'Jinja2<3'
+      #- name: Install Jinga2
+      #  run: pip install 'Jinja2<3'
       
       - name: Install dependencies
         run: pip install .
