@@ -1,5 +1,6 @@
 #!/bin/bash
 
+apt-get -y install sudo
 sudo apt -y update
 sudo apt -y install libpq-dev python-dev
 pip install --upgrade pip
