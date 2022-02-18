@@ -1,4 +1,3 @@
-su
 exec su root --command 'apt-get install sudo'
 sudo apt -y update
 sudo apt -y install libpq-dev python-dev
