@@ -1,4 +1,4 @@
-sudo su
+su
 apt -y update
 apt -y install libpq-dev python-dev
 pip install 'Jinja2<3'
